@@ -1,16 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 .skill-tec {
     display: flex;
+    align-items: center;
+    flex-direction: column;
     font-family: 'Press Start 2P', sans-serif,Arial, Helvetica;
     font-size: 23px;
     color: #ffffff;
+    
 }
 
-.skill-tec .icon {
-    margin-right: 25px;
+.icon {
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
 }
 
-.skill-tec .right {
+.right {
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+
+}
+
+.progress-container {
+    width: 100%;
+   
+    
+}
+.skill-tec {
+    margin: 10px;
+ }
+
+ .content {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+ }
+
+.details {
+    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    text-align: center;
 }
+
+   
